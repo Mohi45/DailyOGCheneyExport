@@ -25,7 +25,7 @@ public class TestCheneyExecutor extends CommonCheney {
     private final static Logger logger = Logger.getLogger(TestCheneyExecutor.class);
     public static int rowIndex;
     public static String projectPath = System.getProperty("user.dir");
-    public static String inputFile = "src/main/java/Resources/ExportEngineInput.xlsx";//System.getProperty("user.home") + "\\Desktop\\ExportEngineInput.xlsx";
+    public static String inputFile = "src/test/java/com/Resources/ExportEngineInput.xlsx";//System.getProperty("user.home") + "\\Desktop\\ExportEngineInput.xlsx";
     // projectPath + "\\config\\ExportEngineInput.xlsx";
     public static SimpleDateFormat sdf = new SimpleDateFormat("YYYY-MM-dd HH:mm:ss");
     public static String reportFile = System.getProperty("user.dir")+"/src/main/Resources/Reports/CheneyOG_report/ExportSummary_Cheney_"
