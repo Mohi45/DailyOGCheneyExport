@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-03T11:28:39Z" name="Default suite" finished-at="2022-11-03T11:32:16Z" duration-ms="217016">
+    <groups>
+    </groups>
+    <test started-at="2022-11-03T11:28:39Z" name="Default test" finished-at="2022-11-03T11:32:16Z" duration-ms="217016">
+      <class name="com.edge.CheneyOnline.TestCheneyExecutor">
+        <test-method is-config="true" signature="set()[pri:0, instance:com.edge.CheneyOnline.TestCheneyExecutor@59252cb6]" started-at="2022-11-03T16:58:39Z" name="set" finished-at="2022-11-03T16:58:39Z" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method is-config="true" signature="beforeData()[pri:0, instance:com.edge.CheneyOnline.TestCheneyExecutor@59252cb6]" started-at="2022-11-03T16:58:39Z" name="beforeData" finished-at="2022-11-03T16:58:40Z" duration-ms="901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeData -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.edge.CheneyOnline.TestCheneyExecutor@59252cb6]" started-at="2022-11-03T16:58:40Z" name="setUp" finished-at="2022-11-03T16:58:45Z" duration-ms="4396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Export_Mail_OG(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.edge.CheneyOnline.TestCheneyExecutor@59252cb6]" started-at="2022-11-03T16:58:45Z" name="Export_Mail_OG" data-provider="testData" finished-at="2022-11-03T17:00:06Z" duration-ms="80847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Howleys_Cheney]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CHENEY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Howleys Restaurant]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[046348-00CBI]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Howleys22]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value is-null="true"/>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Export_Mail_OG -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.edge.CheneyOnline.TestCheneyExecutor@59252cb6]" started-at="2022-11-03T17:00:06Z" name="setUp" finished-at="2022-11-03T17:00:09Z" duration-ms="3319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Export_Mail_OG(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.edge.CheneyOnline.TestCheneyExecutor@59252cb6]" started-at="2022-11-03T17:00:09Z" name="Export_Mail_OG" data-provider="testData" finished-at="2022-11-03T17:01:12Z" duration-ms="63442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ibis_Golf_Cheney]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CHENEY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The Club at Ibis - Golf]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[047507-02cbi]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Badger2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value is-null="true"/>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Export_Mail_OG -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.edge.CheneyOnline.TestCheneyExecutor@59252cb6]" started-at="2022-11-03T17:01:12Z" name="setUp" finished-at="2022-11-03T17:01:15Z" duration-ms="2874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Export_Mail_OG(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.edge.CheneyOnline.TestCheneyExecutor@59252cb6]" started-at="2022-11-03T17:01:15Z" name="Export_Mail_OG" data-provider="testData" finished-at="2022-11-03T17:02:16Z" duration-ms="61191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ibis_GolfMaint_Cheney]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CHENEY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The Club at Ibis - GolfMaint]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[047507-04cbi]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Badger4]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value is-null="true"/>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Export_Mail_OG -->
+      </class> <!-- com.edge.CheneyOnline.TestCheneyExecutor -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
