@@ -1,5 +1,6 @@
 package com.edge.CheneyOnline;
 
+
 import com.framework.CommonCheney;
 import com.framework.ExcelFunctions;
 import com.framework.RandomAction;
@@ -106,7 +107,7 @@ public class TestCheneyExecutor extends CommonCheney {
         return td;
     }
 
-    @AfterSuite
+    //@AfterSuite
     public static void sendMailAndclose() {
         try {
             er.flush();

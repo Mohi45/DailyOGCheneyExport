@@ -24,6 +24,7 @@ public class CommonCheney {
    public boolean LoginCheney(WebDriver driver, String usernameCBI, String passwordCBI) throws InterruptedException {
       driver.get("http://www.procurement.itradenetwork.com/Platform/Membership/Login");
       Thread.sleep(2000L);
+      System.out.println(driver.getCurrentUrl());
       wait = new WebDriverWait(driver, 30L);
       WebElement chb_Username = (WebElement)wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//input[contains(@id,'username')]"))));
       chb_Username.sendKeys(usernameCBI);
@@ -84,6 +85,7 @@ public class CommonCheney {
    public boolean LoginCheney(WebDriver driver, String OGName, String usernameCBI, String passwordCBI) throws InterruptedException {
       driver.get("http://www.procurement.itradenetwork.com/Platform/Membership/Login");
       Thread.sleep(2000L);
+      System.out.println(driver.getCurrentUrl());
       wait = new WebDriverWait(driver, 30L);
       WebElement chb_Username = (WebElement)wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//input[contains(@id,'username')]"))));
       chb_Username.sendKeys(new CharSequence[]{usernameCBI});
