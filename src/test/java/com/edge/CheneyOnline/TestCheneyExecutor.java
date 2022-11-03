@@ -65,7 +65,7 @@ public class TestCheneyExecutor extends CommonCheney {
     public static void setUp() throws IOException {
         // to get the browser on which the UI test has to be performed.
         System.out.println("***********StartTest*********");
-        RandomAction.deleteFiles(System.getProperty("user.home") + "\\Downloads");
+        //RandomAction.deleteFiles(System.getProperty("user.home") + "\\Downloads");
         driver = RandomAction.launchBrowser();//openBrowser("Chrome", path);
         logger.info("Invoked browser .. ");
     }
