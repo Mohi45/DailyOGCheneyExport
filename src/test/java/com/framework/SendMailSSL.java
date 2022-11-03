@@ -73,7 +73,7 @@ public class SendMailSSL {
          // get connection
          Session session = createConnection();
          // String filepath = RandomAction.setdownloadDir();
-         File GFS_OG = RandomAction.getLatestFilefromDirxlsx(System.getProperty("user.home") + "\\Downloads\\");
+         File GFS_OG = RandomAction.getLatestFilefromDirxlsx("/var/jenkins_home/workspace/DailyCheneyOGExportEngine/");
          String filename = GFS_OG.getAbsolutePath();
          System.out.println(filename);
 

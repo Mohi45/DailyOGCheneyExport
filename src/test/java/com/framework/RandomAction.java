@@ -167,7 +167,15 @@ public class RandomAction {
       }
 
    }
+   public static void deleteFiles(String path, String extension) {
+      File dir = new File(path);
+      // FileUtils.cleanDirectory(dir);
+      for (File file : dir.listFiles())
+         if (!file.isDirectory() && file.getName().contains(extension))
+            file.delete();
+      System.out.println("All files deleted from folder :-" + path);
 
+   }
    public static void deleteFiles(String path) {
       File dir = new File(path);
       File[] var2 = dir.listFiles();
