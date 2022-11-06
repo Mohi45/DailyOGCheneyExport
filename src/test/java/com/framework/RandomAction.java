@@ -218,7 +218,7 @@ public class RandomAction {
       options.addArguments("--disable-extensions"); // disabling extensions
       options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
       options.addArguments("--no-sandbox"); // Bypass OS security model
-      WebDriverManager.chromedriver().driverVersion("106.0.5249.119").setup();
+      WebDriverManager.chromedriver().setup();
       driver = new ChromeDriver(options);
       driver.manage().window().maximize();
       return driver;
