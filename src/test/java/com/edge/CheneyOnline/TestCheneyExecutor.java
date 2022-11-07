@@ -107,7 +107,7 @@ public class TestCheneyExecutor extends CommonCheney {
         return td;
     }
 
-    //@AfterSuite
+    @AfterSuite
     public static void sendMailAndclose() {
         try {
             er.flush();
