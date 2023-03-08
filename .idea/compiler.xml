@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="DailyCheneyOGExportEngine-main" />
         <module name="CheneyOnline" />
+        <module name="DailyOGCheneyExport" />
       </profile>
     </annotationProcessing>
   </component>
